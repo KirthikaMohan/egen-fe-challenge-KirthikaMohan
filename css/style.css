@@ -1,0 +1,75 @@
+  
+/* Default styling*/
+*{
+     margin:0;
+    padding:0;
+   }
+    body {
+  font-family: 'Oswald', sans-serif;
+     letter-spacing: 0.5px;
+    }
+    .outer-box
+    {
+        background-color:#f2efef;
+        width:30%;
+    }
+    #card-details
+    {
+        width:100%;
+        margin:0 auto;
+        height:120px;
+        margin-top:20px;
+        padding:10px 0;
+     }
+/* input focus*/
+    .focusedInput ]
+    {
+        border-color: rgba(82,168,236,.8) ;
+        outline: 0;
+        outline: thin dotted \9;
+        -moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
+        box-shadow: 0 0 8px rgba(82,168,236,.6) !important;
+    }
+       
+      /*backgroung image for each different card*/  
+        .default-icon{
+            background-image:url("../images/credit.png");
+        }
+        .american-express{
+            background-image:url("../images/amex.png");
+        }
+        .discover-card{
+            background-image:url("../images/discover.png");
+        }
+        .maestro{
+            background-image:url("../images/maestro.png");
+        }
+        .master-card{
+            background-image:url("../images/mastercard.png");
+        }
+        .visa{
+            background-image:url("../images/visa.png");
+        }
+        
+        #star{
+            color:#4ECDC4;
+            font-size:20px;
+            padding:0 5px 0 0;
+
+        }
+        label{
+            font-size:16px; 
+        }
+
+        #input-box{
+            padding-left:80px;
+            background-position: left;
+            background-size: 70px 50px;
+            background-repeat: no-repeat;
+            display:inline-block;
+            height:50%;
+            font-size:16px;
+            font-weight:700;
+            
+        }
+        
